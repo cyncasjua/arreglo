@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6AtXiSv4fzmM" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-11-08</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[La arquitectura del sistema sigue un modelo en capas que organiza los componentes en tres bloques principales: *Presentación*, *Lógica de Negocio*, *Persistencia*. Esto permite una separación de responsabilidades facilitando el mantenimiento, la escalabilidad y la seguridad del sistema.
+
+* **Presentación:** también conocida como **interfaz de usuario**, es la capa que interactúa directamente con el usuario. Se encarga de mostrar la interfaz gráfica o la interfaz de usuario, capturando los datos que el usuario introduce y mostrándole los resultados o respuestas del sistema.
+
+	Gestiona las solicitudes del usuario y las envía a la capa de Lógica de Negocio que se 		encagará de procesarlas.
+
+* **Lógica de Negocio:** contiene la funcionalidad central del sistema y las reglas de negocio. Esta capa es la responsable de procesar las solicitudes recibidas desde la capa de Presentación aplicando lo anterior. Se implementan las validaciones, cálculos y procesos principales del sistema.
+
+* **Persistencia:** actúa como intermediaria entre la Lógica de Negocio y el SGBD, gestionando el acceso y almacenamiento de los datos de la aplicación. Su objetivo es realizar operaciones CRUD (crear, leer, actualizar y eliminar) en la base de datos de forma eficiente y segura.
+
+* **Sistema de Gestión de Bases de Datos:** es el sistema donde se almacenan los datos de la aplicación. Además, proporciona funcionalidades avanzadas como gestión de transacciones, seguridad y recuperación de datos en caso de fallos, asegurando la integridad y disponibilidad de la información]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

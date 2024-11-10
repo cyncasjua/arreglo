@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="84p3gqoT2C9f" classes="business-requirement business-process" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[PRNA-]]></prefix><number>003</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Gestión de citas no clientes]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[El proceso comienza cuando una persona que no es cliente desea agendar una cita con el director. Para ello, inicia buscando el número de contacto del director en internet, obteniendo así el número de teléfono.
+
+Una vez que tiene el número, procede a realizar una llamada. Si el director responde, la persona solicita una cita. En respuesta, el director le proporciona una lista de fechas y horarios disponibles. Si alguna de las opciones ofrecidas se ajusta a la disponibilidad de la persona, la cita queda confirmada. En caso de que ninguna fecha le resulte conveniente, no se agendará la cita en ese momento.
+
+Si el director no atiende la llamada, la persona tiene dos opciones: puede optar por volver a intentarlo en otro momento o, alternativamente, decidir no realizar más intentos y concluir el proceso sin haber agendado una cita
+
+En caso de que el administrador no coja el teléfono puede volver a llamar hasta que lo coja, o puede no llamar otra vez y finalizar el proceso sin una cita agendada.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
+    <integerProperty name="width" category="detail" tooltip="width-info">20</integerProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

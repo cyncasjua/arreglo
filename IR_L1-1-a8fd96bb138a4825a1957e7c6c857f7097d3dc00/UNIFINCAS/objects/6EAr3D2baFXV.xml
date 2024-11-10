@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6EAr3D2baFXV" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[specific data]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Tipo de cita, fecha, duración, trabajador que atendió la cita, método de pago empleado y coste de la misma.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

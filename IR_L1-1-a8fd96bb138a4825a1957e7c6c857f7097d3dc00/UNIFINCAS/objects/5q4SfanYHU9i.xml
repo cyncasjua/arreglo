@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5q4SfanYHU9i" classes="meeting" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Reunión]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="detail">2024-10-06</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <timeProperty name="time" category="detail">14:30:00</timeProperty>
+    <stringProperty name="place" category="detail"><![CDATA[Zoom]]></stringProperty>
+    <traceProperty name="attenders" category="detail" acceptedTargets="stakeholder" traceType=":Proteus-information-source">
+      <trace target="67nNRPdCUbDj" traceType=":Proteus-information-source"/>
+      <trace target="5MFdTX9x9Qyp" traceType=":Proteus-information-source"/>
+      <trace target="6Y9KWyuYTPZq" traceType=":Proteus-information-source"/>
+      <trace target="dp97jp5inVxt" traceType=":Proteus-information-source"/>
+      <trace target="4bjpj5Wywa6M" traceType=":Proteus-information-source"/>
+      <trace target="8DXg6Ufy4uok" traceType=":Proteus-information-source"/>
+    </traceProperty>
+    <markdownProperty name="results" category="results"><![CDATA[El objetivo de esta reunión fue resolver varias preguntas formuladas por los integrantes del equipo, con el fin de avanzar en la consecución de los objetivos del proyecto. A continuación, se presentan las respuestas a las preguntas más relevantes:
+
+***P.:** Pregunta*
+
+***R + C:** Respuesta + conclusión obtenida*
+
+
+**P.:** ¿Hay alguna función, resolución de error o mejora que desee implementar?
+
+**R + C:** Sí. Alfonso expresó su interés en implementar un sistema de gestión de consultas con precios. A menudo recibe solicitudes de información sobre temas legales, especialmente de personas que desean establecer nuevas oficinas de administración de fincas. Para abordar esta necesidad, considera útil incluir un apartado en la página web que detalle un plan de pagos en función del tipo de consulta y el medio de comunicación (correo electrónico o telefónico).
+
+**P.:** ¿Le gustaría mejorar la forma de solicitar presupuestos? (Actualmente, el formulario parece un poco anticuado).
+
+**R + C:** Considera que no es necesario realizar cambios en el formulario actual. Prefiere visitar la comunidad junto con la persona que solicita el presupuesto antes de ofrecer una cifra. Esto le permite evaluar aspectos como el tamaño, la ubicación y las necesidades específicas de la comunidad, lo que le ayuda a elaborar un presupuesto.
+
+
+**P.:** Hemos notado que en TuComunidApp hay una opción para solicitar citas pero es solo para clientes. ¿Qué le parecería incluir también una opción para no clientes?
+
+**R + C:** Alfonso opinó que esta sería una buena idea. Sugirió crear una sección en la página web que, si el usuario no es cliente, despliegue un menú con los posibles asuntos de la reunión. Si el usuario es cliente, podría ser redirigido a un acceso directo o a un inicio de sesión en la aplicación.
+
+
+**P.:** ¿Le gustaría implementar un bot con respuestas automáticas para automatizar el proceso de pregunta respuesta?
+
+**R + C:** El cliente reconoció que esto podría ser muy beneficioso. A menudo, los vecinos le plantean preguntas que ya tienen respuesta en la web. Un bot de este tipo permitiría a los usuarios obtener respuestas de manera más rápida, a la vez que reduciría la carga de trabajo de Alfonso al manejar esas consultas.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

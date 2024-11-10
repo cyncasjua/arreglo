@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7CKspDxNtwVq" classes="general-traceable-object glossary-item" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Automatización]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[Se integrará un chat con un bot diseñado para responder preguntas simples que tendrá respuestas automaticas a ciertas preguntas comunes, lo que ayudará a la empresa a reducir la saturación de citas pues gran parte de las preguntas se resolverán facilmente a través de ese chat. Esta herramienta permitirá a los usuarios obtener respuestas rápidas a sus consultas frecuentes, liberando así al personal para que se concentre en asuntos más complejos.]]></markdownProperty>
+    <fileProperty name="image" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
+    <integerProperty name="width" category="detail" tooltip="width-info">20</integerProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

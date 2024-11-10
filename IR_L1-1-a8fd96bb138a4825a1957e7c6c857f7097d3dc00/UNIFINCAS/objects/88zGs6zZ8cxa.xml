@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="88zGs6zZ8cxa" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-08</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="dp97jp5inVxt" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Actualmente, la empresa Unifincas cuenta con un entorno digital bastante completo. 
+
+Su página web, **www.unifincas.com** ofrece a los visitantes toda la información necesaria sobre la empresa, incluyendo quiénes son y qué servicios ofrecen. También ponen a disposición documentos con normativa que puede ser de gran utilidad para quienes buscan conocer las bases legales y reglamentarias que guían su labor. Además, la página cuenta con un apartado con un formulario para poder solicitar presupuestos y finalmente, un acceso directo a la aplicación exclusiva para los clientes donde pueden gestionar y consultar sus servicios.
+
+La aplicación exclusiva para clientes de UNIFINCAS, **TuComunidApp**, está diseñada para facilitar la gestión de todos los aspectos relacionados con la comunidad. La aplicación se organiza en cuatro secciones principales:
+
+1. *Comunidad*: En esta sección, los usuarios pueden acceder a una variedad de funciones según su comunidad. Esto incluye la posibilidad de solicitar citas para hablar con el despacho, reportar incidencias y, si la comunidad cuenta con instalaciones como pistas de pádel, reservarlas para evitar conflictos o solapamientos con otros vecinos. Además, esta sección ofrece un directorio de teléfonos de interés y encuestas para mejorar la gestión comunitaria.
+
+2. *Casa*: Aquí, los usuarios pueden ver y gestionar todas sus propiedades, como viviendas, plazas de garaje o trasteros. También incluye una agenda personal donde pueden anotar eventos importantes, como reuniones o juntas. La sección ofrece un gráfico detallado de los recibos y pagos, así como un buscador para encontrar profesionales de confianza recomendados por el despacho para reparaciones o servicios específicos.
+
+3. *Calendario*: En esta sección se muestra un calendario donde los usuarios pueden visualizar los eventos de la comunidad, como reuniones o juntas, así como aquellos eventos personales que hayan registrado en su agenda.
+
+4. *Ajustes*: En este apartado, los usuarios pueden personalizar su perfil, gestionar notificaciones y notificar cambios de domicilio si es necesario.
+
+Además, la empresa cuenta con una aplicación exclusiva para los trabajadores, llamada **Gesfincas**, que facilita la gestión integral de todas las comunidades administradas por UNIFINCAS. Esta herramienta permite a los empleados controlar y gestionar diversos aspectos operativos y administrativos de manera centralizada y eficiente, además de estar conectada con la aplicación de los clientes, por lo que todas las incidencias y modificaciones de información realizadas en la app serán almacenadas aquí. Las principales funcionalidades con las que cuenta esta aplicación son:
+
+- *Base de Datos*: La aplicación incluye una base de datos detallada de todas las comunidades gestionadas por UNIFINCAS, así como de los propietarios e inquilinos, lo que permite acceder fácilmente a información relevante.
+
+- *Gestión de Presupuestos y Contabilidad*: Gesfincas permite crear y gestionar presupuestos, además de llevar el control contable de cada comunidad. Los empleados pueden registrar ingresos, gastos y gestionar facturas de proveedores.
+
+- *Control de Incidencias*: La aplicación facilita el registro y seguimiento de incidencias reportadas por los propietarios, asegurando una resolución oportuna.
+
+- *Historial de Actividades*: Los trabajadores pueden acceder a un registro de todas las actividades realizadas en cada comunidad, lo que proporciona trazabilidad en la gestión.
+
+Por último, los empleados utilizan una herramienta llamada **CAfirma**, que es ampliamente empleada por administradores de fincas en España para la firma electrónica de documentos, la validación de identidad y la gestión eficiente de la documentación.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

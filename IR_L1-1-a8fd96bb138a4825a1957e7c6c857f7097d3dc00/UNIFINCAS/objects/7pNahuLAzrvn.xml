@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7pNahuLAzrvn" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-29</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[- **COMPATIBILIDAD CON DISPOSITIVOS** 			
+
+	- **www.unifincas.com:** Compatible con todos los dispositivos que tengan acceso a internet, independientemente del sistema operativo.
+
+	- **TuComunidApp:** Compatible con dispositivos móviles Android (versión 7.0 o posterior) e iOS (versión 11.0 o posterior). En su versión web, es accesible desde cualquier dispositivo con conexión a internet.
+
+	- **Gesfincas:** Disponible en versión de servidor para instalaciones centralizadas y en una versión para estaciones de trabajo en red.
+	
+- **LIMITACIONES DE INFRAESTRUCTURA:** La infraestructura actual debe ser capaz de soportar todas las nuevas implementaciones, como la creación de una base de datos específica para la gestión de llaves y la integración de un sistema para pagos. Si la infraestructura no cumple con estas necesidades, será necesario ampliarla o actualizarla..
+
+- **ALMACENAMIENTO:** El sistema tiene que tener capacidad de almacenamiento suficiente para las nuevas implementaciones. Si el actual no es adecuado, se deberá realizar una ampliación del almacenamiento.
+
+- **SEGURIDAD Y CUMPLIMIENTO DE NORMATIVAS:** El sistema debe cumplir con normativas de protección de datos, como la Ley de Protección de Datos. En particular, la gestión de llaves debe asegurar que la información personal esté protegida, de modo que ningún cliente pueda ver quién tiene una llave específica en cada momento.
+
+- **INTEGRACIÓN CON HERRAMIENTAS EXTERNAS:** El sistema debe ser capaz de integrarse con herramientas externas clave, como la plataforma de gestión de pagos y la herramienta CAfirma para la firma electrónica de documentos. ]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

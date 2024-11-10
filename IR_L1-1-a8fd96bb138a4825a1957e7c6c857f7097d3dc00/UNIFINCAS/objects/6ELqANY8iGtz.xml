@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="6ELqANY8iGtz" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-30</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[* **Integración de la API para pagos:** El sistema deberá utilizar una API para la gestión de los pagos que queremos implementar para que las consultas externas sean remuneradas.
+
+* **Integración de la nueva base de datos de las llaves:** El sistema deberá integrar adecuadamente la base de datos de las llaves para asegurar su correcta gestión y acceso.
+
+* **Integración del bot de preguntas frecuentes con base de datos:** El bot debe estar integrado con una base de datos donde se almacenen las respuestas a preguntas comunes de los usuarios. Esto permite que el bot acceda a la información actualizada y proporcione respuestas precisas. Además, el bot debe guardar un registro de todas las interacciones en la base de datos para que el equipo pueda analizar las consultas más comunes y mejorar las respuestas.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

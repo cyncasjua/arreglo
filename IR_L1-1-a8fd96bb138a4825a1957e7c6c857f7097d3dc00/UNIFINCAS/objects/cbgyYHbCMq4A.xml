@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="cbgyYHbCMq4A" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[scope 1]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-07</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[La empresa con la que colaboraremos, UNIFINCAS, es una organización dedicada a la gestión y administración de fincas, entre otras actividades. Actualmente, el propietario se encuentra con un problema en la gestión  de  llaves de las comunidades. Las llaves de áreas comunes, como los contadores o las salas de depuradoras, están bajo el control de la empresa, y cuando un propietario necesita acceder a alguna de estas áreas, esta se encarga de prestarle la llave correspondiente. Sin embargo, el proceso carece de una base de datos que registre quién tiene cada llave, cuándo fue prestada, cuándo debe ser devuelta..., lo que obliga a llevar un seguimiento manual, incrementando el tiempo y el esfuerzo necesarios. Nuestro proyecto abordará este problema mediante la implementación de un sistema automatizado que optimice la administración de las llaves.
+
+
+
+]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

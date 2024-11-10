@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="Ar6XegDyN2JP" classes="business-requirement business-process" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[PRNA-]]></prefix><number>002</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Gestión de preguntas]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[El proceso comienza con una persona que tiene una consulta, generalmente una pregunta básica. Esta persona buscará el número de teléfono de la empresa en su página web. Luego, podrá optar por llamar directamente o enviar un mensaje al director para resolver su duda.
+El director puede decidir si responder o no. Si no responde, el consultante tendrá la opción de volver a intentarlo o dejarlo así. Si decide no volver a llamar, el proceso concluirá. Sin embargo, si decide insistir, se encontrará en la misma situación inicial. Si el director responde, el consultante planteará su pregunta y recibirá la respuesta correspondiente. Si surgen más dudas, podrá continuar preguntando, de lo contrario, la conversación finalizará. Si el consultante no está satisfecho con las respuestas, tiene la opción de volver a llamar y repetir el proceso. Si está satisfecho, se dará por concluido el proceso.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
+    <integerProperty name="width" category="detail" tooltip="width-info">20</integerProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

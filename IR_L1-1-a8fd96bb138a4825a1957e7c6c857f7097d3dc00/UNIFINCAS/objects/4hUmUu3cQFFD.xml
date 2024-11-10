@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4hUmUu3cQFFD" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-08</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="dp97jp5inVxt" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El entorno hardware con el que cuenta Unifincas actualmente es el siguiente:
+
+- **Servidor de aplicaciones**  para la gestión, el aseguramiento del correcto funcionamiento y disponibilidad de las aplicaciones empresariales.
+- **Servidor de datos** dedicado al almacenamiento, procesamiento y la administración de las bases de datos.
+- **Puestos fijos de trabajo y portátiles** para la realización de las tareas operativas y administrativas de los empleados.
+- **Impresora láser multifunción** e **impresora láser estándar** para satisfacer las necesidades de impresión, copiado y escaneo.
+- **Red de comunicaciones**: cuenta con una red con *rack de comunicaciones* con 24 conexiones y un *switch* de 1Gb con 18 puertos para la conexión de dispositivos en la red local.
+- **Router de fibra óptica** para proporcionar conexión a internet de alta velocidad para los dispositivos de la red.
+
+Este entorno hardware proporciona a Unifincas un apoyo para el correcto funcionamiento y la mejora de la productividad del trabajo de la empresa.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

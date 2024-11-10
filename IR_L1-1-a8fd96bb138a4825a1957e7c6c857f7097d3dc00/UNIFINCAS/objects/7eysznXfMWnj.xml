@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="7eysznXfMWnj" classes="business-requirement business-process" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[BPRO-]]></prefix><number>004</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Gestión de consultas externas]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-10</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[En este proceso se busca gestionar las citas externas de usuarios que no son clientes, quienes necesitan comunicarse con el director ejecutivo para tratar asuntos que no pueden ser resueltos por el bot de respuestas automáticas.
+
+Estos usuarios deberán escoger un método de comunicación, ya sea por teléfono o correo electrónico. Según la opción elegida, se activará un sistema que informará al usuario sobre el plan de pago correspondiente al canal seleccionado. Además, se planea integrar un sistema de pagos directamente en la aplicación.
+
+El principal desafío es que el sistema de pagos debe ser gestionado internamente dentro de la aplicación, sin depender de plataformas externas, lo que garantizaría una experiencia más fluida y eficiente para el usuario.
+
+El objetivo de este proceso es optimizar el rendimiento del equipo, mejorando tanto la gestión de citas como el cobro de servicios,  brindando una experiencia de usuario unificada y sin fricciones.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
+    <integerProperty name="width" category="detail" tooltip="width-info">20</integerProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

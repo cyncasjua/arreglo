@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4dugHZ4qj7Qt" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-22</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="dp97jp5inVxt" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[Los subsistemas son componentes clave de un sistema más grande, cada uno con una función específica que contribuye al objetivo global del sistema. Estos subsistemas interactúan entre sí para garantizar que el sistema funcione de manera eficiente y cumpla con sus objetivos.
+A continuación, se describen los subsistemas a desarrollar para la empresa Unifincas:
+
+
+- **Gestión de llaves:** Este subsistema automatizará el proceso de control de llaves, facilitando tanto a los clientes como a los empleados el seguimiento y la gestión de las llaves de las propiedades. Permitirá registrar quién tiene cada llave, la fecha de recogida y devolución, y enviar recordatorios automáticos, optimizando así la seguridad y la eficiencia operativa.
+
+
+- **Sistema de Gestión de Consultas con Plan de Pago:** Este subsistema ofrecerá una estructura clara para consultas especializadas que no forman parte de las gestiones rutinarias del administrador de fincas. A través de un sistema de pagos, se permitirá remunerar el tiempo del director cuando se atiendan consultas legales u otras asesorías específicas, generando una fuente adicional de ingresos y optimizando el tiempo dedicado a estas tareas.
+
+
+- **Sistema de Gestión de Citas para No Clientes:** Este subsistema proporcionará una herramienta eficaz para gestionar las citas de personas que no son clientes de Unifincas. Permitirá a los usuarios no registrados solicitar citas a través de la aplicación o la web, mejorando la organización y permitiendo un acceso más sencillo a los servicios de la empresa.
+
+
+- **Bot de Respuestas Automáticas:** Este subsistema integrará un chatbot que responderá automáticamente a preguntas frecuentes de los usuarios, disminuyendo la carga de trabajo del personal. Al automatizar las respuestas a consultas repetitivas, los empleados podrán centrarse en tareas más complejas, mejorando la productividad y la experiencia del usuario.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

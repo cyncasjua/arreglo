@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="4juS63NJDHPz" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[scope 3]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-09</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El cliente también expresó su interés en mejorar su aplicación, implementando una zona de respuestas cortas con respuestas automatizadas y un apartado de la web para pedir citas si no eres cliente, ya sea para pedir presupuesto o asesoramiento. Todo esto se hará con el fin de aumentar la comodidad tanto para la organización como para los propietarios. Además, se buscará optimizar su página web para facilitar una mejor gestión de citas para los usuarios que no son clientes de la organización. Estas mejoras permitirán una experiencia más  eficiente para todos los usuarios, mejorando la interacción con los servicios ofrecidos.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

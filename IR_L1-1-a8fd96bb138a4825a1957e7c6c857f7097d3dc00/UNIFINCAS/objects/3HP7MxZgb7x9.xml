@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="3HP7MxZgb7x9" classes="general-traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Dominio del Problema]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[El dominio del problema en el contexto de UNIFINCAS se centra en la gestión y administración de comunidades de propietarios. Este ámbito es crucial para asegurar un funcionamiento óptimo y eficiente entre los miembros de la comunidad. 
+
+La necesidad de un sistema eficaz surge de los desafios diarios que enfrentan las comunidades donde la gestión de los recursos, la gestión de entre los propietarios y la optimización de procesoso administrativos son esenciales. Sin herramientas adecuadas, estas tareas pueden volverse complejas y propensas a errores. 
+
+Entre los problemas más frecuentes se destacan: 
+
+1. Falta de comunicación efectiva: Dificultades en el intercambio de información entre los vecinos y la administración. 
+2. Seguimiento de pagos: Inconvenientes en el control de contribuciones y pagos pendientes
+3. Gestión de solicitudes de mantenimiento: Desafios en la atención y respuesta a las necesidades de mantenimiento de las instalaciones.
+
+Solución propuesta
+Un sistema integral como el de UNIFINCA tiene como objetivo centralizar y facilitar la gestión de estas áreas, permitiendo que tanto administradores como propietarios tengan acceso a información clave de manera ágil y eficiente. Esto no solo mejora la transparencia en la gestión, sino que también fomenta un ambiente de cooperación y confianza entre los miembros de la comunidad. 
+]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="5JnoYFrFfuWX" classes="business-requirement business-process" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-any">
+  <properties>
+    <codeProperty name=":Proteus-code" category="general" inmutable="true"><prefix><![CDATA[PRNA-]]></prefix><number>001</number><suffix><![CDATA[]]></suffix></codeProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Gestión de llaves]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2024-10-13</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="created-by" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="description" category="detail"><![CDATA[El proceso siempre comenzará con el cliente/ vecino, quien deberá solicitar una llave. Tiene dos alternativas: acudir personalmente a la oficina o realizar la solicitud por teléfono. En cualquiera de los casos, es posible que la llave no esté disponible en ese momento, lo que implicaría que deba regresar o volver a llamar. Si la llave está disponible, el cliente deberá acudir a la oficina para recogerla. Cuando la llave es entregada, el trabajador responsable debe registrar la fecha de recogida, la identidad de la persona que la recibe y establecer un plazo para su devolución. Si la persona no devuelve la llave dentro del plazo acordado, el trabajador debe ponerse en contacto por teléfono para recordarle la obligación de entrega. Esto se repetirá hasta que la llave sea devuelta, completando así el proceso.]]></markdownProperty>
+    <enumProperty name="importance" category="detail" choices="tbd critical high medium low optional">high</enumProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[]]></fileProperty>
+    <integerProperty name="width" category="detail" tooltip="width-info">20</integerProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="general-traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
